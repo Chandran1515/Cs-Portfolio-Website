@@ -62,14 +62,14 @@
 .project-row:hover { background:var(--surface-2); transform: translateX(4px); }
 .project-row:hover::before { opacity:1; }
 
-.pr-index { font-family:var(--font-mono); font-size:0.7rem; color:var(--text-dim); letter-spacing:0.1em; margin-bottom:0.4rem; }
+.pr-index { font-family:var(--font-mono); font-size:0.85rem; color:var(--text-dim); letter-spacing:0.1em; margin-bottom:0.4rem; }
 .pr-name { font-family:var(--font-display); font-size:1.75rem; font-weight:400; color:var(--text); line-height:1.15; margin-bottom:0.3rem; }
 .pr-sub { font-size:0.95rem; color:var(--text-muted); margin-bottom:0.8rem; }
 .pr-tags { display:flex; flex-wrap:wrap; gap:0.35rem; }
 .pr-tag { font-family:var(--font-mono); font-size:0.85rem; letter-spacing:0.08em; color:#555; border:1px solid #C7C7CC; padding:0.18rem 0.5rem; text-transform:uppercase; }
 .pr-tag.red { color:var(--red); border-color:var(--red); background:rgba(204,51,51,0.08); font-weight:600; }
 
-.pr-col strong { display:block; font-family:var(--font-mono); font-size:0.7rem; letter-spacing:0.12em; text-transform:uppercase; color:#555; font-weight:600; margin-bottom:0.3rem; }
+.pr-col strong { display:block; font-family:var(--font-mono); font-size:0.85rem; letter-spacing:0.12em; text-transform:uppercase; color:#555; font-weight:600; margin-bottom:0.3rem; }
 .pr-col span { font-size:0.95rem; color:var(--text); }
 
 .pr-status-col { display:flex; flex-direction:column; gap:0.4rem; align-items:flex-end; }
